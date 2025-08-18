@@ -1,0 +1,28 @@
+html,
+body {
+  @apply flex flex-col min-h-screen;
+}
+
+#layout {
+  @apply flex flex-col gap-4 flex-1;
+}
+
+#app_header {
+  @apply flex flex-row gap-4 justify-between align-middle p-4;
+}
+
+#app_brand a {
+  @apply flex flex-row gap-2;
+}
+
+#top_nav {
+  @apply flex flex-row gap-4;
+}
+
+#user_nav {
+  @apply flex flex-row gap-4;
+}
+
+#app_main {
+  @apply flex flex-row gap-4 flex-1;
+}
