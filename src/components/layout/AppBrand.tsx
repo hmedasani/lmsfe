@@ -1,3 +1,4 @@
+import { NEXT_APP_NAME } from '@/libs/constants'
 import { Home } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
@@ -6,7 +7,7 @@ function AppBrand() {
     return (
         <div id='app_brand'>
             <Link href={"/"}>
-                <Home /> Home
+                <Home /> {NEXT_APP_NAME}
             </Link>
         </div>
     )
